@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Yandex School</title>
+
+  <link href="images/favicon.png" type="image/png" rel="shortcut icon">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="app">
+    <form id="myForm" class="app__form" action="scripts/send.php">
+      <input class="app__input" type="text" name="fio" placeholder="ФИО">
+      <input class="app__input" type="text" name="email" placeholder="Email">
+      <input class="app__input" type="text" name="phone" placeholder="Телефон">
+
+      <button class="app__button" id="submitButton" type="button">Отправить</button>
+    </form>
+
+    <div id="resultContainer"></div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

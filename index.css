@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Arial;
+  font-size: 15px; }
+
+.app {
+  max-width: 420px;
+  margin: 80px auto;
+  padding: 0 35px; }
+  .app__input {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 5px 0;
+    color: #757575;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    transition: all .35s; }
+    .app__input:focus {
+      outline: 0;
+      border: 1px solid #2472a4; }
+  .app__button {
+    font-size: 15px;
+    margin: 5px 0 0 0;
+    padding: 10px 15px;
+    color: #fff;
+    background: #2472a4;
+    border-radius: 5px;
+    border: 0;
+    transition: all .25s; }
+    .app__button:hover {
+      background: #1f638f;
+      cursor: pointer; }
+    .app__button--disabled {
+      opacity: 0.5; }
+      .app__button--disabled:hover {
+        background: #2472a4;
+        cursor: not-allowed; }
+
+.error {
+  border: 1px solid red; }
